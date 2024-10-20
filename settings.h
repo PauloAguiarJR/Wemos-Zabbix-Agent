@@ -32,9 +32,9 @@ const int maxConnectionTimeout = 5 * 1000;
 const int maxTransmissionTimeout = 5 * 1000;
 
 // ***** LEDs *****  
-// on Errors
+// On Errors
 int RED_LED = 16;
-// on enquanto espera por wlan e envia dados
+// On enquanto espera por wlan e envia dados
 int GREEN_LED = 2; // LOW para ligar e HIGH para desligar
 
 // ****** Sensor DHT22 ******
