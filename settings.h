@@ -4,10 +4,10 @@
 // zabbix server or proxy - IP ou FQDN
 const char * server = "IP_SERVER";
 
-// zabbix trapper port
+// Zabbix trapper port
 const uint16_t port = 10051;
 
-// hostname do host no Zabbix
+// Hostname do host no Zabbix
 const char * hostname = "hostname_arduino";
 
 // ***** WiFi configurações relacionadas *****
@@ -19,7 +19,7 @@ const char * wifiKey = "PASSWORD";
 
 
 // ***** Sensor configurações relacionadas *****
-// enviar o intervalo de dados em segundos após a conexão e envio de dados 
+// Enviar o intervalo de dados em segundos após a conexão e envio de dados 
 const int sendDataIntervallSec = 60;
 
 
